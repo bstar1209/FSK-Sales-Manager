@@ -1,0 +1,476 @@
+body, table {
+	font-size: 12px !important;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+.input-group-prepend>.input-group-text, .btn-sm, .form-control {
+	font-size: 12px !important;
+}
+
+table {
+	white-space: nowrap;
+}
+
+thead {
+	display: table-header-group;
+}
+
+.table td, .table th {
+	position: relative;
+	text-align: center;
+    white-space: pre-wrap !important;
+    vertical-align: middle !important;
+    /* min-width: 80px; */
+}
+
+td:focus {
+    outline-color: rgb(16, 16, 16) !important;
+    outline-width: 1px !important;
+    outline-style: auto;
+}
+
+.table, .default-color {
+	color: black;
+}
+
+#page-header .dropdown-menu {
+	min-width: 22rem !important;
+	color: black;
+	font-weight: 500;
+}
+
+.modal .input-group-text, #address-payment-term .input-group-text {
+	width: 100px;
+}
+.input-group-text {
+	display: block;
+	background-color: #4e73df !important;
+	color: white;
+}
+
+#search-area .input-group-text {
+	width: 100px;
+}
+
+.topbar {
+	height: 3.2rem !important;
+}
+
+.btn-primary.disabled, .btn-primary:disabled {
+	color: #fff;
+	background-color: #7898f8 !important;
+	border-color: #6489f8 !important;
+}
+
+.tr-blue {
+    background-color: rgb(188, 247, 255) !important;
+}
+
+.tr-green {
+    background-color: rgb(12, 206, 12) !important;
+}
+
+.tr-light-blue {
+    background-color: rgb(159, 232, 241) !important;
+}
+
+.tr-grey {
+	background-color: rgb(167, 161, 161) !important;
+}
+.tr-yellow {
+	/* background-color: yellow !important; */
+    background-color: rgb(238, 232, 170) !important;
+}
+.tr-orange {
+	/* background-color: orange !important; */
+    background-color: rgb(255, 250, 205) !important;
+}
+
+.font-red {
+    color: rgb(235, 83, 83) !important;
+}
+
+footer.sticky-footer {
+	padding: 1.2rem 0 !important;
+}
+
+.font-size-1 {
+	font-size: 1em !important;
+}
+
+.w-15 {
+	width: 15%;
+}
+.w-35 {
+	width: 35%;
+}
+
+.w-100 {
+    width: 100% !important;
+}
+
+.p-12 {
+	padding: 0 12px 20px 12px !important;
+}
+
+#rate-history.dataTable {
+	margin: 0 !important;
+}
+
+input.disabled-input {
+	background: none;
+	border: none;
+	pointer-events: none;
+}
+
+.dataTables_scrollHeadInner, .dataTables_scrollBody, .dataTables_scrollBody table {
+	width: 100% !important;
+}
+
+.nav-active span {
+	color: #3490dc !important;
+}
+
+.datepicker > div {
+	display: block;
+}
+
+#history-table_filter  div {
+	margin-left: -74% !important;
+}
+
+#history-table_wrapper .pull-left {
+	float: left!important;
+	margin-left: 190px;
+	padding-top: 7px !important;
+}
+
+#payment-term-table_wrapper .dataTables_scroll {
+	min-width: 445px !important;
+}
+
+.p-48 {
+	padding: 4.8px !important;
+}
+
+.spin {
+	opacity: 1;
+	height: 58px;
+	width: 30px;
+	position: absolute;
+	left: 47%;
+	top: 22%;
+}
+
+.order-spin, .account-spin {
+    height: 116px !important;
+    width: 60px !important;
+}
+
+.spin-background {
+	width: 98%;
+	background-color: black;
+	opacity: 0.2;
+	position: absolute;
+	top: 7px;
+    height: 90%;
+}
+
+.order-table-spin.spin-background, .ship-order-table-spin.spin-background {
+    height: 98% !important;
+}
+
+.history-table-spin.spin-background {
+    margin-top: 7px;
+    height: 83% !important;
+}
+
+.dataTables_scrollBody:focus, table:focus {
+    outline: none !important;
+}
+
+.unrfq-table-spin.spin-background {
+    top: 3% !important;
+}
+
+#supplier-register-modal .input-group-text {
+	width: 130px !important;
+}
+
+.cke_editable.cke_editable_themed.cke_contents_ltr {
+	font-size: 18px !important;
+}
+
+.cke_editable {
+	font-size: 18px !important;
+	font-weight: 500 !important;
+}
+
+.un-rfq-textarea {
+	padding: 0 !important;
+	height: 28px !important;
+}
+
+
+/*
+Make bootstrap-select work with bootstrap 4 see:
+https://github.com/silviomoreto/bootstrap-select/issues/1135
+*/
+.dropdown-toggle.btn-default {
+  color: #292b2c;
+  background-color: #fff;
+  border-color: #ccc;
+}
+.bootstrap-select.show > .dropdown-menu > .dropdown-menu {
+  display: block;
+}
+.bootstrap-select > .dropdown-menu > .dropdown-menu li.hidden {
+  display: none;
+}
+.bootstrap-select > .dropdown-menu > .dropdown-menu li a {
+  display: block;
+  width: 100%;
+  padding: 3px 1.5rem;
+  clear: both;
+  font-weight: 400;
+  color: #292b2c;
+  text-align: inherit;
+  white-space: nowrap;
+  background: 0 0;
+  border: 0;
+  text-decoration: none;
+}
+.bootstrap-select > .dropdown-menu > .dropdown-menu li a:hover {
+  background-color: #f4f4f4;
+}
+.bootstrap-select > .dropdown-toggle {
+  width: 100%;
+}
+.dropdown-menu > li.active > a {
+  color: #fff !important;
+  background-color: #337ab7 !important;
+}
+.bootstrap-select .check-mark {
+  line-height: 14px;
+}
+.bootstrap-select .check-mark::after {
+  font-family: "FontAwesome";
+  content: "\f00c";
+}
+.bootstrap-select button {
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+/* Make filled out selects be the same size as empty selects */
+.bootstrap-select.btn-group .dropdown-toggle .filter-option {
+  display: inline !important;
+}
+
+.input-group .countrypicker {
+  flex: 1 1 auto;
+}
+
+.input-group-sm .countrypicker .btn {
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
+.btn-min-width-120 {
+    min-width: 120px !important;
+}
+
+#cash-on-delivery-table td, #shipping-list-table td {
+    padding: 3px !important;
+}
+
+.perfecture-btn {
+    color: white !important;
+}
+.m-sub {
+    cursor: pointer !important;
+    text-decoration: none !important;
+}
+
+.dataTables_scrollHead {
+    width: 98.8% !important;
+}
+
+#payment-term-table_wrapper .dataTables_scrollHead {
+    width: 96% !important;
+}
+
+/* --------------------------frontend--------------------------- */
+#quote-request-list-table input[type="radio"] {
+    max-width: 20px !important;
+}
+
+.frontend-content {
+    color: rgb(0, 0, 128);
+    font-size: small !important;
+    font-family: "ＭＳ Ｐゴシック" !important;
+    margin-bottom: 100px !important;
+}
+
+#frontend-page-header {
+    /* background-image: url('../images/bg_header.png');
+    background-repeat: no-repeat;
+    opacity: 0.9; */
+    width: 100%;
+    background-size: cover;
+    background-color: #180e53 !important;
+}
+.w-450 {
+    width: 450px !important;
+}
+
+.notification {
+    min-height: 130px !important;
+    max-height: 130px !important;
+    overflow-y: scroll;
+}
+
+.f-card {
+    box-shadow: 0 5px 11px 0 rgb(0 0 0 / 18%), 0 4px 15px 0 rgb(0 0 0 / 15%);
+}
+
+#login-card, #user-info-card, #before-login {
+    min-width: 342px !important;
+    min-height:284px !important;
+}
+
+.card_pos {
+    position: absolute;
+    right: 40px;
+    top: 105px;
+}
+
+#member-register-modal .input-group-prepend span{
+    min-width: 120px !important;
+}
+.result {
+    padding: 12px 0;
+    font-size: 16px !important;
+    font-weight: 500;
+}
+
+.p-12 {
+    padding: 12px !important;
+}
+
+.tr-bg {
+    background-color: rgba(0, 0, 0, 0.05);
+    border-bottom: 2px solid;
+}
+
+#purchase-steps  .input-group-text {
+    min-width: 80px !important;
+}
+
+#registration .input-group-text {
+    min-width: 115px;
+}
+
+/* .address-template:hover { */
+    /* border: 1px solid; */
+    /* background-color: aliceblue; */
+/* } */
+
+#shipment .input-group-text {
+    width: 100px !important;
+}
+
+#order-detail-modal p {
+    margin-bottom: 10px;
+    font-weight: 700;
+}
+
+#order .input-group-text {
+    min-width: 115px;
+}
+
+.page-detail span {
+    font-weight: 600;
+}
+
+#overseas_manufacturer .input-group-text {
+    min-width: 150px;
+}
+
+.page-content {
+    padding-left: 100px !important;
+}
+
+td.details-control {
+    background: url('../images/details_open.png') no-repeat center center;
+    cursor: pointer;
+}
+tr.shown td.details-control {
+    background: url('../images/details_close.png') no-repeat center center;
+}
+
+.dataTables_scrollBody {
+    min-height: 170px !important;
+}
+
+#search-btn:disabled {
+    opacity: 1 !important;
+    color: #fff !important;
+    background-color: #3490dc !important;
+    border-color: #3490dc !important;
+}
+
+#focus-td {
+    background: transparent !important;
+    /* border: transparent !important; */
+    border: none;
+    text-align: center;
+    width: 100% !important;
+    padding: 0 !important;
+    margin: 0 !important;
+}
+
+.td-decoration {
+    text-decoration: underline !important;
+    color: #1f88f1 !important;
+}
+
+.bootstrap-autocomplete {
+    padding: 0;
+    font-size: 12px;
+}
+
+span.select2 {
+    width: 100% !important
+}
+.select2-search__field:focus-visible {
+    outline: none !important;
+}
+.select2-results__message {
+    display: none !important;
+}
+
+/* --------datatable resize and order-------- */
+
+.flexigrid {
+    padding-left: 12px !important;
+    font-weight: bold !important;
+}
+
+.hDivBox {
+    padding-right: 0px !important;
+}
+
+#request-unrfq-table, #quote-from-supplier-table, #history-table {
+    table-layout: fixed !important; 
+    word-wrap:break-word !important;
+}
+
+table th {
+    box-sizing: border-box !important;
+}
+
+td input {
+    width: 100% !important;
+    overflow: hidden !important;
+}
